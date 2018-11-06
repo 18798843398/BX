@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/BX/index",
+    "pages/user/index",
+    "pages/shop/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#67afbd",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/BX/index",
+        "iconPath": "images/tabbar/index.png",
+        "selectedIconPath": "images/tabbar/index@selected.png",
+        "text": "BX仓"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "iconPath": "images/tabbar/shop.png",
+        "selectedIconPath": "images/tabbar/shop@selected.png",
+        "text": "BX商城"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "images/tabbar/my.png",
+        "selectedIconPath": "images/tabbar/my@selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

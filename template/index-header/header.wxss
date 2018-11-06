@@ -1,0 +1,6 @@
+<view class="header">
+    <image class='bg' src="{{headerBg}}" mode='widthFix'></image>
+    <button bindtap='onBX' class='hint paddingLR26 f-34 c-c48534 z-index1 text-overflow t-center'>
+      15454
+    </button>
+  </view>
